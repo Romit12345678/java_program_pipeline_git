@@ -1,6 +1,10 @@
 pipeline{
 
     agent any
+
+    tools{
+        maven "maven"
+    }
     enviroment{
         VERSION_NAME="1.34"
     }
