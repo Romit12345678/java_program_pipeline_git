@@ -9,7 +9,6 @@ pipeline{
             steps{
 
             sh 'javac Test.java'
-            sh 'echo "${VERSION_NAME}"'
             }
         }
 
