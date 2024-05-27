@@ -5,13 +5,10 @@ pipeline{
     tools{
         maven "maven"
     }
-    enviroment{
-        VERSION_NAME="1.34"
-    }
-
     stages{
 
         stage("compile"){
+
 
             steps{
 
